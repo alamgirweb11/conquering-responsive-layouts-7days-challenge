@@ -4,9 +4,66 @@
 
 body{
      font-family: sans-serif;
+     font-size: 14px;
 }
 
-.main-content {
+.main-content{
       display: flex;
       justify-content: space-between;
+      margin: 0 auto;
+      padding: 1rem 1rem;
+}
+
+.left-content{
+        padding: 0.5rem;
+        background-color: #00386d;
+        color: #fff;
+        margin: 0.5rem;
+}
+.left-content h3{
+     font-size: 1.5em;
+     text-transform: uppercase;
+}
+.left-content p{
+    font-size: 1em;
+}
+.left-content button{
+      background-color: #fff;
+      border: none;
+      padding: .5rem;
+      font-weight: 600;
+      border-radius: 0.2rem;
+      cursor: pointer;
+      transition: 0.5s;
+}
+.left-content button:hover{
+     background-color: #222020;
+     color: #fff;
+}
+
+.right-content{
+        padding: 0.5rem;
+        background-color: #056dce;
+        color: #fff;
+        margin: 0.5rem;
+}
+.right-content h3{
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+.right-content p{
+   font-size: 1em;
+}
+.right-content button{
+     background-color: #fff;
+     border: none;
+     padding: .5rem;
+     font-weight: 600;
+     border-radius: 0.2rem;
+     cursor: pointer;
+     transition: 0.5s;
+}
+.right-content button:hover{
+    background-color: #222020;
+    color: #fff;
 }
