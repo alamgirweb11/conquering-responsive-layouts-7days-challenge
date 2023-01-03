@@ -1,0 +1,17 @@
+*{
+   box-sizing: border-box;
+}
+
+body{
+     font-family: sans-serif;
+}
+.main-content{
+      padding: 1em 5em;
+      background-image: linear-gradient(to bottom, #115bca00, #373941);
+}
+
+
+p, ul {
+     /* font-size: 1.2em; */  /* if use font-size in em it multiply for every single tag */
+     font-size: 1rem;
+}
