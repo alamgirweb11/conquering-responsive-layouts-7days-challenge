@@ -6,12 +6,45 @@ body{
      font-family: sans-serif;
 }
 .main-content{
+      min-height: 100vh;
       padding: 1em 5em;
       background-image: linear-gradient(to bottom, #115bca00, #373941);
 }
 
+.page-title{
+    color: #175bb4;
+}
 
 p, ul {
      /* font-size: 1.2em; */  /* if use font-size in em it multiply for every single tag */
      font-size: 1rem;
+}
+
+.product-card{
+      width: 570px;
+      background-color: #b0b9bd;
+      padding: 1rem;
+}
+
+.product-card-title{
+     color: #175bb4;
+     text-transform: capitalize;
+}
+
+.product-card-details{
+      font-size: 0.9rem;
+}
+
+.product-card-btn{
+       /* padding: 0.8em 1.5em; */ /* use em for button to balance the responsive ratio for  */
+       padding: 0.8rem 1.5rem;
+       border: none;
+       font-size: 1rem;
+       font-weight: 500;
+       transition: 0.2s;
+}
+
+.product-card-btn:hover{
+        background-color: #175bb4;
+        color: #fff;
 }
