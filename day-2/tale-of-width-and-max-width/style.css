@@ -1,0 +1,22 @@
+*{
+     box-sizing: border-box;
+}
+
+.container{
+     width: 80%;
+     margin: 0 auto;
+}
+
+.example-1{
+      background-color: rgb(231, 139, 0);
+      padding: 1em;
+      width:  800px;
+      max-width: 100%;
+}
+.example-2{
+      background-color: rgb(231, 139, 0);
+      padding: 1em;
+      width: 100%;
+      max-width: 800px;
+      margin-top: 1rem;
+}
