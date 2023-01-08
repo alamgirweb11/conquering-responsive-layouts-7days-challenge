@@ -1,0 +1,17 @@
+*{
+     box-sizing: border-box;
+}
+
+.content-wrapper{
+      display: flex;
+      flex-direction: row;
+}
+
+.text-block{
+      background-color: #f04b09;
+      color: #fff;
+      padding: 1em;
+      margin: 0.3rem;
+      width: 30%;
+      max-width: 380px;
+}
