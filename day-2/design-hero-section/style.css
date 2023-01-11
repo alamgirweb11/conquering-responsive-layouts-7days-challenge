@@ -1,5 +1,12 @@
-*{
+*, *::before, *::after{
     box-sizing: border-box;
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
    } 
+
+body{
+     margin: 0;
+}
+
+.hero{
+      background-color: #23424A;
+      color: #FFF;
+}
