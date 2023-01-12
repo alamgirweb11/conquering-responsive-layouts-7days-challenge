@@ -4,9 +4,21 @@
 
 body{
      margin: 0;
+     font-family: 'Roboto', sans-serif;
+}
+
+.container{
+         width: 80%;
+         max-width: 900px;
+         margin: 0 auto;
 }
 
 .hero{
       background-color: #23424A;
       color: #FFF;
+      padding: 100px 0;
+}
+
+.hero_text{
+       width: 60%;
 }
