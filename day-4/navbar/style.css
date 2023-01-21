@@ -79,6 +79,12 @@ nav{
     list-style: none;
     display: flex;
 }
+.nav__list--primary{ 
+    margin: 0 auto;      
+}
+.nav__list--secondary{ 
+    width: 100%;     
+}
 .nav__item {
       margin-right: 1rem;
 }
