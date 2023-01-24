@@ -1,0 +1,36 @@
+*,*::after,*::before{
+     box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+}
+
+.example{
+      width: 90%;
+      margin: 5em auto;
+      padding: 10em 0;
+      background-color: #1daff3;
+}
+
+/* 667px or bigger */
+@media (min-width: 667px) {
+      .example {
+        background-color: #032738;
+      }
+}
+
+@media (min-width: 867px) {
+    .example {
+        background-color: #0b6b97;
+      }
+}
+
+/* 667px or smaller */
+@media (max-width: 667px) {
+    .example {
+        background-color: #021016;
+      }
+}
