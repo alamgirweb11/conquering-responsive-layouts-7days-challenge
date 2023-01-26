@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Work+Sans:wght@100;300;400;500;600;700;800&display=swap');
+
+:root{
+      --crimson-text: 'Crimson Text', serif;
+      --work-sans: 'Work Sans', sans-serif;
+
+      --h1: 40px;
+      --h2: 32px;
+      --h3: 28px;
+      --h4: 24px;
+      --h5: 20px;
+      --h6: 16px;
+      --sub: 20px;
+      --label: 16px;
+      --ls: 5px;
+      --body: 14px;
+
+      /* color with opacity */
+      --color-dark-100: rgba(33, 37, 41, 1);
+      --color-dark-75: rgba(33, 37, 41, 0.75);
+      --color-dark-50: rgba(33, 37, 41, 0.5);
+      --color-dark-25: rgba(33, 37, 41, 0.25);
+
+      --color-white-100: rgba(255, 255, 255, 1);
+      --color-white-75: rgba(255, 255, 255, 0.75);
+      --color-white-50: rgba(255, 255, 255, 0.5);
+      --color-white-25: rgba(255, 255, 255, 0.25);
+
+      --color-green-100: rgba(116, 198, 157, 1);
+      --color-green-75: rgba(116, 198, 157, 0.75);
+      --color-green-50: rgba(116, 198, 157, 0.5);
+      --color-green-25: rgba(116, 198, 157, 0.25);
+}
+
+/* remove default styles of the browser */
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common reusable classes */
+.label{
+    font-family: var(--work-sans);
+    font-size: var(--label);
+    letter-spacing: var(--ls);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/* text color variant */
+.text-white{
+    color: var(--color-white-100)
+}
+.text-dark{
+    color: var(--color-dark-100)
+}
+.text-green{
+    color: var(--color-green-100)
+}
+
+/* button variant */
+.btn-white{
+     background-color: ;
+}
+.btn-white,
+.btn-dark{
+     background-color: var(--color-white-100);
+     color: var(--color-dark-100);
+     cursor: pointer;
+     border: none;
+     font-family: var(--work-sans);
+     font-size: var(--h5);
+     padding: 10px 40px;
+     border-radius: 8px;
+}
+.btn-dark{
+    background-color: var(--color-dark-100);
+     color: var(--color-white-100); 
+}
