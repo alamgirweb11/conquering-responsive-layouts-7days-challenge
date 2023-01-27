@@ -1,1 +1,6 @@
 @import '_variable.css';
+
+/* navbar css */
+.navbar__header{
+     background-color: var(--color-green-100);
+}

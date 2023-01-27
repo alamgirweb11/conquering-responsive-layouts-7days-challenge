@@ -61,7 +61,7 @@
 
 /* button variant */
 .btn-white{
-     background-color: ;
+     background-color: var(--color-white-100);
 }
 .btn-white,
 .btn-dark{
@@ -77,4 +77,10 @@
 .btn-dark{
     background-color: var(--color-dark-100);
      color: var(--color-white-100); 
+}
+
+/* page layout */
+.container{
+     max-width: 1140px;
+     margin: 0 auto;
 }
