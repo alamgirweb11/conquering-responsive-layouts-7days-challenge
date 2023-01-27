@@ -1,11 +1,51 @@
 @import '_variable.css';
 
-/* page layout */
+/*================= page layout ===================*/
 .container{
     max-width: 1140px;
     margin: auto;
 }
-/* navbar css */
+/*================ common css classes ====================*/
+.section-padding{
+      padding: 40px 0;
+}
+
+.text-center{
+     text-align: center;
+}
+
+.grid{
+    padding: 40px 0;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     align-items: center;
+}
+
+.section-title, .section-title-dark{
+    font-size: var(--h1);
+    font-family: var(--crimson-text);
+    font-weight: bold;
+    text-transform: capitalize;
+    color: var(--color-white-100);
+}
+
+.section-title-dark{
+     color: var(--color-dark-100)
+}
+
+.flex{
+     display: flex;
+}
+
+.flex-direction-column{
+     flex-direction: column;
+}
+
+.gap-15{
+     gap: 15px;
+}
+
+/*====================== navbar css ==============================*/
 .navbar__header{
      background-color: var(--color-green-100);
 }
@@ -71,7 +111,48 @@
        display: none;
 }
 
-/* media query */
+/* =============== hero section css =================*/
+.hero{
+     background-color: var(--color-green-100);
+}
+
+.hero__left--description{
+     font-family: var(--work-sans);
+     font-size: var(--body);
+     font-weight: 400;
+     color: var(--color-white-75)
+}
+
+.hero__left--btn{
+     align-self: flex-start;
+}
+
+/* =============================== partner section css  =====================*/
+.partner__wrapper{
+     display: grid;
+     gap: 30px;
+}
+
+.partner__content--description{
+      font-family: var(--work-sans);
+      font-size: var(--sub);
+}
+
+.partner__logo{
+     display: grid;
+     grid-template-columns: repeat(5, 1fr);
+}
+
+.partner__logo-image{
+       justify-self: center;
+       align-self: center;
+}
+
+.partner__btn{
+     justify-self: center;
+}
+
+/*========================== media query ===================*/
 @media (max-width: 1200px){
     .container{
       max-width: 970px;

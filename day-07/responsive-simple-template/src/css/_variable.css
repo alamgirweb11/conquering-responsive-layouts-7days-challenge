@@ -71,10 +71,17 @@
      border: none;
      font-family: var(--work-sans);
      font-size: var(--h5);
+     text-transform: capitalize;
      padding: 10px 40px;
      border-radius: 8px;
 }
 .btn-dark{
     background-color: var(--color-dark-100);
      color: var(--color-white-100); 
+}
+
+/* responsive image style rules */
+.responsive-image{
+     max-width: 100%;
+     height: auto;
 }
