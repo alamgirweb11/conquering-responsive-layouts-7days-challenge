@@ -13,12 +13,12 @@
 </head>
 <body>
     <header class="navbar__header">
-        <div class="container">
-                <div class="navbar__left--section">
+        <div class="container navbar-wrapper">
+                <div class="navbar__logo--section">
                     <img src="src/images/logo/LogoWhite.svg" alt="logo" class="navbar__logo">
                     <h2 class="navbar__text">Logo</h2>
                 </div>
-             <nav class="navbar__right--section">
+             <nav class="navbar__menu--section navbar__hidden">
                <ul class="nav__list">
                 <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
                 <li class="nav__item"><a href="#" class="nav__link">Portfolio</a></li>
@@ -26,7 +26,12 @@
                 <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
                </ul>
              </nav>
+             <div class="navbar__icon--section">
+                <i class="bi bi-list mobile__menu-icon-show"></i>
+                <i class="bi bi-x-lg mobile__menu-icon-hide hide"></i>
+             </div>
         </div>
     </header>
+    <script src="src/main.js"></script>
 </body>
 </html>
