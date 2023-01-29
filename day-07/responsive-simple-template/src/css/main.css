@@ -152,6 +152,30 @@
      justify-self: center;
 }
 
+/*=========================== service section 1 ===============================*/
+.service-1__description{
+         font-family: var(--work-sans);
+         font-size: var(--body);
+         color: var(--color-dark-50)
+}
+
+.service-1__btn{
+      align-self: start;
+      margin-top: 20px;
+}
+
+/*=========================== service section 2 ===============================*/
+.service-2__description{
+         font-family: var(--work-sans);
+         font-size: var(--body);
+         color: var(--color-dark-50)
+}
+
+.service-2__btn{
+      align-self: start;
+      margin-top: 20px;
+}
+
 /*========================== media query ===================*/
 @media (max-width: 1200px){
     .container{
