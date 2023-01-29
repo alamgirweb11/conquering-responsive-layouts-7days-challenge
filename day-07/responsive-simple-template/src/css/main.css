@@ -176,6 +176,48 @@
       margin-top: 20px;
 }
 
+/*========================= team section css ===============================*/
+.team__wrapper{
+      display: grid;
+      gap: 30px;
+}
+
+.team__description{
+     font-family: var(--work-sans);
+     font-size: var(--sub);
+}
+
+.team__member-group{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 30px;
+}
+
+.team__member-single{
+        box-shadow: var(--shadow-one);
+        padding: 20px 25px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+}
+
+.team__member-single .name{
+        font-family: var(--crimson-text);
+        font-size: var(--h5);
+        font-weight: bold;
+}
+
+.team__member-single .designation{
+     font-family: var(--work-sans);
+     color:  var(--color-dark-75);
+     text-transform: uppercase;
+}
+
+.team__btn{
+       justify-self: center;
+}
+
 /*========================== media query ===================*/
 @media (max-width: 1200px){
     .container{
