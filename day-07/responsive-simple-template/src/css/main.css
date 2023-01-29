@@ -223,16 +223,46 @@
     .container{
       max-width: 970px;
     } 
+
+    .section-title{
+      font-size: var(--h2);
+    }
+/* ================ partner section ============= */
+    .partner__logo{
+     grid-template-columns: repeat(3, 1fr);
+     gap: 30px;
+    }
 }
+
 @media (max-width: 1024px){
     .container{
       max-width: 740px;
     } 
+    .section-title{
+     font-size: var(--h3);
+   }
 }
 @media (max-width: 768px){
+     /* =============== common classes ================= */
     .container{
       max-width: 500px;
     } 
+    .grid{
+       grid-template-columns: repeat(1, 1fr);
+       gap: 25px;
+    }
+
+    .section-title{
+     font-size: var(--h4);
+   }
+
+   .btn-white,
+.btn-dark{
+     font-size: var(--h6);
+     padding: 8px 25px;
+}
+
+    /* ====================== navbar ================================= */
     .navbar__icon--section{
         display: block;
   }
@@ -256,9 +286,42 @@
      z-index: -1;
      display: none;
    }
+   /* ================== hero section ================================ */
+   .hero__left{
+     order: 1;
+   }
+
+   .hero__right{
+      order: 0;
+   }
+
+ /* ================== service-2 section ================================ */
+ .service-2__content{
+       order: 1;
+ }
+ .service-2__image{
+      order: 0;
+ }
+
+ /* =============== team section ==================== */
+ .team__member-group{
+     grid-template-columns: repeat(2, 1fr);
+     gap: 20px;
+}
 }
 @media (max-width: 568px){
     .container{
       max-width: 90%;
     } 
+/* ================ partner section ============= */
+.partner__logo{
+     grid-template-columns: repeat(1, 1fr);
+     gap: 30px;
+    }
+
+/* =============== team section ==================== */
+ .team__member-group{
+     grid-template-columns: repeat(1, 1fr);
+     gap: 10px;
+}
 }
