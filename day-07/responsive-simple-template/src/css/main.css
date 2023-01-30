@@ -218,6 +218,29 @@
        justify-self: center;
 }
 
+/* =============================== footer section ================================ */
+.footer{
+      background-color: var(--color-green-100);
+}
+
+.footer__wrapper{
+     padding: 30px 0;
+     display: flex;
+     justify-content: space-between;
+
+}
+
+.footer__copyright-text{
+        font-family: var(--work-sans);
+        font-size: var(--sub);
+}
+
+.footer__social-group {
+        list-style: none;
+        display: flex;
+        gap: 10px;
+}
+
 /*========================== media query ===================*/
 @media (max-width: 1200px){
     .container{
@@ -307,6 +330,18 @@
  .team__member-group{
      grid-template-columns: repeat(2, 1fr);
      gap: 20px;
+}
+/* ================= footer ======================= */
+.footer__wrapper{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__copyright-text{
+        font-family: var(--work-sans);
+        font-size: var(--label);
+        margin-top: 10px;
 }
 }
 @media (max-width: 568px){
