@@ -331,6 +331,42 @@
 
 /*======================== /. service page css ================================*/
 
+/*======================== contact page css ==================================*/
+.contact__intro{
+     text-align: center;
+     display: grid;
+     gap: 15px;
+     margin: 30px 0;
+}
+
+.contact__description{
+     font-family: var(--work-sans);
+     font-size: var(--sub);
+}
+
+.form{
+      display: flex;
+      flex-direction: column;
+}
+
+.form label{
+      font-family: var(--work-sans);
+      font-size: var(--sub);
+}
+
+.form input, textarea{
+      padding: 10px 5px;
+      margin: 8px 0;
+      border-radius: 3px;
+      background-color: #eeeeee;
+      border: 1.5px solid #212529;
+}
+
+.submit__btn{
+      margin-top: 15px;
+}
+/*======================== /. service page css ================================*/
+
 
 /*========================== media query ===================*/
 @media (max-width: 1200px){
@@ -360,6 +396,18 @@
      grid-template-columns: repeat(2, 1fr);
   }
    /* ============ /. service page css ================= */
+   /*======================== contact page css ==================================*/
+   .contact__info{
+      grid-template-columns: repeat(1, 1fr);
+   }
+   .contact__form{
+      order: 1;
+   }
+   .contact__map-img{
+      order: 0;
+   }
+/*======================== /. service page css ================================*/
+
 }
 @media (max-width: 768px){
      /* =============== common classes ================= */
