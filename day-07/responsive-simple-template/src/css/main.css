@@ -1,526 +1,528 @@
-@import '_variable.css';
+@import "_variable.css";
 
 /*================= page layout ===================*/
-.container{
-    max-width: 1140px;
-    margin: auto;
+.container {
+  max-width: 1140px;
+  margin: auto;
 }
 /*================ common css classes ====================*/
-.section-padding{
-      padding: 40px 0;
+.section-padding {
+  padding: 40px 0;
 }
 
-.text-center{
-     text-align: center;
+.text-center {
+  text-align: center;
 }
 
-.grid{
-    padding: 40px 0;
-     display: grid;
-     grid-template-columns: repeat(2, 1fr);
-     align-items: center;
+.grid {
+  padding: 40px 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
 }
 
-.section-title, .section-title-dark{
-    font-size: var(--h1);
-    font-family: var(--crimson-text);
-    font-weight: bold;
-    text-transform: capitalize;
-    color: var(--color-white-100);
+.section-title,
+.section-title-dark {
+  font-size: var(--h1);
+  font-family: var(--crimson-text);
+  font-weight: bold;
+  text-transform: capitalize;
+  color: var(--color-white-100);
 }
 
-.section-title-dark{
-     color: var(--color-dark-100)
+.section-title-dark {
+  color: var(--color-dark-100);
 }
 
-.flex{
-     display: flex;
+.flex {
+  display: flex;
 }
 
-.flex-direction-column{
-     flex-direction: column;
+.flex-direction-column {
+  flex-direction: column;
 }
 
-.gap-15{
-     gap: 15px;
+.gap-15 {
+  gap: 15px;
 }
 
 /*====================== navbar css ==============================*/
-.navbar__header{
-     background-color: var(--color-green-100);
+.navbar__header {
+  background-color: var(--color-green-100);
 }
 
-.navbar-wrapper{
-     display: flex;
-     flex-direction: row;
-     align-items: center;
-     justify-content: space-between;
-     padding: 20px 0;
+.navbar-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
 }
 
-.navbar__logo--section{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 20px;
+.navbar__logo--section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
 }
 
-.navbar__text{
-     font-size: var(--h2);
-     color: var(--color-white-100);
-     font-family: var(--work-sans);
-     font-weight: 500;
+.navbar__text {
+  font-size: var(--h2);
+  color: var(--color-white-100);
+  font-family: var(--work-sans);
+  font-weight: 500;
 }
-.navbar__menu--section{
-     z-index: 1;
-}
-
-.nav__list{
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-    font-family: var(--work-sans);
-    font-size: var(--h5);
-    list-style: none;
+.navbar__menu--section {
+  z-index: 1;
 }
 
-.nav__link{
-     text-decoration: none;
-     color: var(--color-white-100);
+.nav__list {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  font-family: var(--work-sans);
+  font-size: var(--h5);
+  list-style: none;
 }
 
-.nav__link:hover{
-     color: var(--color-dark-100);
-     transition: .5s;
+.nav__link {
+  text-decoration: none;
+  color: var(--color-white-100);
 }
 
-.navbar__icon--section{
-      display: none;
+.nav__link:hover {
+  color: var(--color-dark-100);
+  transition: 0.5s;
 }
-.navbar__icon--section i{
-      font-size: var(--h2);
-      color: var(--color-white-100);
-      cursor: pointer;
+
+.navbar__icon--section {
+  display: none;
+}
+.navbar__icon--section i {
+  font-size: var(--h2);
+  color: var(--color-white-100);
+  cursor: pointer;
 }
 .navbar__icon--section {
-    color: var(--color-dark-100);
-    transition: .5s;
+  color: var(--color-dark-100);
+  transition: 0.5s;
 }
 
-.hide{
-       display: none;
+.hide {
+  display: none;
 }
 
 /* =============== hero section css =================*/
-.hero{
-     background-color: var(--color-green-100);
+.hero {
+  background-color: var(--color-green-100);
 }
 
-.hero__left--description{
-     font-family: var(--work-sans);
-     font-size: var(--body);
-     font-weight: 400;
-     color: var(--color-white-75)
+.hero__left--description {
+  font-family: var(--work-sans);
+  font-size: var(--body);
+  font-weight: 400;
+  color: var(--color-white-75);
 }
 
-.hero__left--btn{
-     align-self: flex-start;
+.hero__left--btn {
+  align-self: flex-start;
 }
 
 /* =============================== partner section css  =====================*/
-.partner__wrapper{
-     display: grid;
-     gap: 30px;
+.partner__wrapper {
+  display: grid;
+  gap: 30px;
 }
 
-.partner__content--description{
-      font-family: var(--work-sans);
-      font-size: var(--sub);
+.partner__content--description {
+  font-family: var(--work-sans);
+  font-size: var(--sub);
 }
 
-.partner__logo{
-     display: grid;
-     grid-template-columns: repeat(5, 1fr);
+.partner__logo {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
 }
 
-.partner__logo-image{
-       justify-self: center;
-       align-self: center;
+.partner__logo-image {
+  justify-self: center;
+  align-self: center;
 }
 
-.partner__btn{
-     justify-self: center;
+.partner__btn {
+  justify-self: center;
 }
 
 /*=========================== service section 1 ===============================*/
-.service-1__description{
-         font-family: var(--work-sans);
-         font-size: var(--body);
-         color: var(--color-dark-50)
+.service-1__description {
+  font-family: var(--work-sans);
+  font-size: var(--body);
+  color: var(--color-dark-50);
 }
 
-.service-1__btn{
-      align-self: start;
-      margin-top: 20px;
+.service-1__btn {
+  align-self: start;
+  margin-top: 20px;
 }
 
 /*=========================== service section 2 ===============================*/
-.service-2__description{
-         font-family: var(--work-sans);
-         font-size: var(--body);
-         color: var(--color-dark-50)
+.service-2__description {
+  font-family: var(--work-sans);
+  font-size: var(--body);
+  color: var(--color-dark-50);
 }
 
-.service-2__btn{
-      align-self: start;
-      margin-top: 20px;
+.service-2__btn {
+  align-self: start;
+  margin-top: 20px;
 }
 
 /*========================= team section css ===============================*/
-.team__wrapper{
-      display: grid;
-      gap: 30px;
+.team__wrapper {
+  display: grid;
+  gap: 30px;
 }
 
-.team__description{
-     font-family: var(--work-sans);
-     font-size: var(--sub);
+.team__description {
+  font-family: var(--work-sans);
+  font-size: var(--sub);
 }
 
-.team__member-group{
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 30px;
+.team__member-group {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
 }
 
-.team__member-single{
-        box-shadow: var(--shadow-one);
-        padding: 20px 25px;
-        border-radius: 5px;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
+.team__member-single {
+  box-shadow: var(--shadow-one);
+  padding: 20px 25px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.team__member-single .name{
-        font-family: var(--crimson-text);
-        font-size: var(--h5);
-        font-weight: bold;
+.team__member-single .name {
+  font-family: var(--crimson-text);
+  font-size: var(--h5);
+  font-weight: bold;
 }
 
-.team__member-single .designation{
-     font-family: var(--work-sans);
-     color:  var(--color-dark-75);
-     text-transform: uppercase;
+.team__member-single .designation {
+  font-family: var(--work-sans);
+  color: var(--color-dark-75);
+  text-transform: uppercase;
 }
 
-.team__btn{
-       justify-self: center;
+.team__btn {
+  justify-self: center;
 }
 
 /* =============================== footer section ================================ */
-.footer{
-      background-color: var(--color-green-100);
+.footer {
+  background-color: var(--color-green-100);
+  position:fixed;
+  bottom:0;
 }
 
-.footer__wrapper{
-     padding: 30px 0;
-     display: flex;
-     justify-content: space-between;
-
+.footer__wrapper {
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
 }
 
-.footer__copyright-text{
-        font-family: var(--work-sans);
-        font-size: var(--sub);
+.footer__copyright-text {
+  font-family: var(--work-sans);
+  font-size: var(--sub);
 }
 
 .footer__social-group {
-        list-style: none;
-        display: flex;
-        gap: 10px;
+  list-style: none;
+  display: flex;
+  gap: 10px;
 }
-
 
 /*======================== portfolio page css ==================================*/
-.portfolio__content{
-     text-align: center;
-     display: grid;
-     gap: 15px;
-     margin: 30px 0;
+.portfolio__content {
+  text-align: center;
+  display: grid;
+  gap: 15px;
+  margin: 30px 0;
 }
-.portfolio__description{
-     font-family: var(--work-sans);
-     font-size: var(--sub);
-}
-
-.portfolio__image-wrapper{
-     display: grid;
-     grid-template-columns: repeat(2, 1fr);
-     gap: 25px;
+.portfolio__description {
+  font-family: var(--work-sans);
+  font-size: var(--sub);
 }
 
-.portfolio__btn{
-     margin: 30px auto;
-     display: block;
+.portfolio__image-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.portfolio__btn {
+  margin: 30px auto;
+  display: block;
 }
 /*======================== /. portfolio page css ================================*/
 
 /*======================== service page css ==================================*/
-.service__content{
-     text-align: center;
-     display: grid;
-     gap: 15px;
-     margin: 30px 0;
+.service__content {
+  text-align: center;
+  display: grid;
+  gap: 15px;
+  margin: 30px 0;
 }
 
-.service__description{
-     font-family: var(--work-sans);
-     font-size: var(--sub);
+.service__description {
+  font-family: var(--work-sans);
+  font-size: var(--sub);
 }
 
-.service__card-wrapper{
-       display: grid;
-       grid-template-columns: repeat(3, 1fr);
-       font-family: var(--work-sans);
-       text-align: center;
-       gap: 40px;
-       margin-bottom: 2rem;
+.service__card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-family: var(--work-sans);
+  text-align: center;
+  gap: 40px;
+  margin-bottom: 2rem;
 }
 
-.service__card{
-     box-shadow: var(--shadow-one);
-     border-radius: 6px;
-     display: grid;
-     gap: 20px;
-     padding: 40px;
+.service__card {
+  box-shadow: var(--shadow-one);
+  border-radius: 6px;
+  display: grid;
+  gap: 20px;
+  padding: 40px;
 }
 
-.service_price__duration-block{
-      display: flex;
-      justify-content: center;
-      align-items: center;
+.service_price__duration-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.service__price{
-      font-size: var(--h1);
-      font-weight: bold;
+.service__price {
+  font-size: var(--h1);
+  font-weight: bold;
 }
 
-.service_duration{
-      font-size: var(--body);
-      color: var(--color-dark-75);
+.service_duration {
+  font-size: var(--body);
+  color: var(--color-dark-75);
 }
 
-.service__short-description{
-     color: var(--color-dark-75);
+.service__short-description {
+  color: var(--color-dark-75);
 }
 
-
-.feature__list{
-      list-style: none;
+.feature__list {
+  list-style: none;
 }
 
-.feature__item i{
-      color: var(--color-green-100)
+.feature__item i {
+  color: var(--color-green-100);
 }
 
-.service__card-btn{
-      justify-self: center;
+.service__card-btn {
+  justify-self: center;
 }
 
 /*======================== /. service page css ================================*/
 
 /*======================== contact page css ==================================*/
-.contact__intro{
-     text-align: center;
-     display: grid;
-     gap: 15px;
-     margin: 30px 0;
+.contact__intro {
+  text-align: center;
+  display: grid;
+  gap: 15px;
+  margin: 30px 0;
 }
 
-.contact__description{
-     font-family: var(--work-sans);
-     font-size: var(--sub);
+.contact__description {
+  font-family: var(--work-sans);
+  font-size: var(--sub);
 }
 
-.form{
-      display: flex;
-      flex-direction: column;
+.form {
+  display: flex;
+  flex-direction: column;
 }
 
-.form label{
-      font-family: var(--work-sans);
-      font-size: var(--sub);
+.form label {
+  font-family: var(--work-sans);
+  font-size: var(--sub);
 }
 
-.form input, textarea{
-      padding: 10px 5px;
-      margin: 8px 0;
-      border-radius: 3px;
-      background-color: #eeeeee;
-      border: 1.5px solid #212529;
+.form input,
+textarea {
+  padding: 10px 5px;
+  margin: 8px 0;
+  border-radius: 3px;
+  background-color: #eeeeee;
+  border: 1.5px solid #212529;
 }
 
-.submit__btn{
-      margin-top: 15px;
+.submit__btn {
+  margin-top: 15px;
 }
 /*======================== /. service page css ================================*/
-
 
 /*========================== media query ===================*/
-@media (max-width: 1200px){
-    .container{
-      max-width: 970px;
-    } 
-
-    .section-title, .section-title-dark{
-      font-size: var(--h2);
-    }
-/* ================ partner section ============= */
-    .partner__logo{
-     grid-template-columns: repeat(3, 1fr);
-     gap: 30px;
-    }
-}
-
-@media (max-width: 1024px){
-    .container{
-      max-width: 740px;
-    } 
-    .section-title, .section-title-dark{
-     font-size: var(--h3);
-   }
-   /* ============ service page css ================= */
-   .service__card-wrapper{
-     grid-template-columns: repeat(2, 1fr);
+@media (max-width: 1200px) {
+  .container {
+    max-width: 970px;
   }
-   /* ============ /. service page css ================= */
-   /*======================== contact page css ==================================*/
-   .contact__info{
-      grid-template-columns: repeat(1, 1fr);
-   }
-   .contact__form{
-      order: 1;
-   }
-   .contact__map-img{
-      order: 0;
-   }
-/*======================== /. service page css ================================*/
 
-}
-@media (max-width: 768px){
-     /* =============== common classes ================= */
-    .container{
-      max-width: 500px;
-    } 
-    .grid{
-       grid-template-columns: repeat(1, 1fr);
-       gap: 25px;
-    }
-
-    .section-title, .section-title-dark{
-     font-size: var(--h4);
-   }
-
-   .btn-white,
-.btn-dark{
-     font-size: var(--h6);
-     padding: 8px 25px;
-}
-
-    /* ====================== navbar ================================= */
-    .navbar__icon--section{
-        display: block;
+  .section-title,
+  .section-title-dark {
+    font-size: var(--h2);
   }
-   .navbar__menu--section{
-     position: absolute;
-     top: 25vh;
-     left: 0;
-     background-color: var(--color-green-100);
-     width: 100%;
-   }
+  /* ================ partner section ============= */
+  .partner__logo {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+}
 
-   .nav__list{
+@media (max-width: 1024px) {
+  .container {
+    max-width: 740px;
+  }
+  .section-title,
+  .section-title-dark {
+    font-size: var(--h3);
+  }
+  /* ============ service page css ================= */
+  .service__card-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* ============ /. service page css ================= */
+  /*======================== contact page css ==================================*/
+  .contact__info {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .contact__form {
+    order: 1;
+  }
+  .contact__map-img {
+    order: 0;
+  }
+  /*======================== /. service page css ================================*/
+}
+@media (max-width: 768px) {
+  /* =============== common classes ================= */
+  .container {
+    max-width: 500px;
+  }
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 25px;
+  }
+
+  .section-title,
+  .section-title-dark {
+    font-size: var(--h4);
+  }
+
+  .btn-white,
+  .btn-dark {
+    font-size: var(--h6);
+    padding: 8px 25px;
+  }
+
+  /* ====================== navbar ================================= */
+  .navbar__icon--section {
+    display: block;
+  }
+  .navbar__menu--section {
+    position: absolute;
+    top: 25vh;
+    left: 0;
+    background-color: var(--color-green-100);
+    width: 100%;
+  }
+
+  .nav__list {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 1rem 0;
-   }
+  }
 
-   .navbar__hidden{
-     z-index: -1;
-     display: none;
-   }
-   /* ================== hero section ================================ */
-   .hero__left{
-     order: 1;
-   }
+  .navbar__hidden {
+    z-index: -1;
+    display: none;
+  }
+  /* ================== hero section ================================ */
+  .hero__left {
+    order: 1;
+  }
 
-   .hero__right{
-      order: 0;
-   }
+  .hero__right {
+    order: 0;
+  }
 
- /* ================== service-2 section ================================ */
- .service-2__content{
-       order: 1;
- }
- .service-2__image{
-      order: 0;
- }
+  /* ================== service-2 section ================================ */
+  .service-2__content {
+    order: 1;
+  }
+  .service-2__image {
+    order: 0;
+  }
 
- /* =============== team section ==================== */
- .team__member-group{
-     grid-template-columns: repeat(2, 1fr);
-     gap: 20px;
-}
-/* ================= footer ======================= */
-.footer__wrapper{
-     display: flex;
+  /* =============== team section ==================== */
+  .team__member-group {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  /* ================= footer ======================= */
+  .footer__wrapper {
+    display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.footer__copyright-text{
-        font-family: var(--work-sans);
-        font-size: var(--label);
-        margin-top: 10px;
-}
-   /* ============ service page css ================= */
-
-.service__card-wrapper{
-     grid-template-columns: repeat(1, 0.7fr);
-     justify-content: center;
   }
-   /* ============ /. service page css ================= */
-}
-@media (max-width: 568px){
-    .container{
-      max-width: 90%;
-    } 
-/* ================ partner section ============= */
-.partner__logo{
-     grid-template-columns: repeat(1, 1fr);
-     gap: 30px;
-    }
 
-/* =============== team section ==================== */
- .team__member-group{
-     grid-template-columns: repeat(1, 1fr);
-     gap: 10px;
-}
-
-/*==================== portfolio page css ===================*/
-.portfolio__image-wrapper{
-     grid-template-columns: repeat(1, 1fr);
-     gap: 15px;
-}
-/*==================== /.portfolio page css ===================*/
-   /* ============ service page css ================= */
-   .service__card-wrapper{
-     grid-template-columns: repeat(1, 1fr);
-     justify-content: center;
+  .footer__copyright-text {
+    font-family: var(--work-sans);
+    font-size: var(--label);
+    margin-top: 10px;
   }
-   /* ============ /. service page css ================= */
+  /* ============ service page css ================= */
+
+  .service__card-wrapper {
+    grid-template-columns: repeat(1, 0.7fr);
+    justify-content: center;
+  }
+  /* ============ /. service page css ================= */
+}
+@media (max-width: 568px) {
+  .container {
+    max-width: 90%;
+  }
+  /* ================ partner section ============= */
+  .partner__logo {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+
+  /* =============== team section ==================== */
+  .team__member-group {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+
+  /*==================== portfolio page css ===================*/
+  .portfolio__image-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+  }
+  /*==================== /.portfolio page css ===================*/
+  /* ============ service page css ================= */
+  .service__card-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+  }
+  /* ============ /. service page css ================= */
 }
