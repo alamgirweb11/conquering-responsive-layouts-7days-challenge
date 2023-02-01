@@ -241,13 +241,42 @@
         gap: 10px;
 }
 
+
+/*======================== portfolio page css ==================================*/
+.portfolio__content{
+     text-align: center;
+}
+.portfolio__description{
+     font-family: var(--work-sans);
+     font-size: var(--sub);
+}
+
+.portfolio__image-wrapper{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 25px;
+}
+
+.portfolio__content {
+      display: grid;
+      gap: 15px;
+      margin: 30px 0;
+}
+
+.portfolio__btn{
+     margin: 30px auto;
+     display: block;
+}
+/*======================== /. portfolio page css ================================*/
+
+
 /*========================== media query ===================*/
 @media (max-width: 1200px){
     .container{
       max-width: 970px;
     } 
 
-    .section-title{
+    .section-title, .section-title-dark{
       font-size: var(--h2);
     }
 /* ================ partner section ============= */
@@ -261,7 +290,7 @@
     .container{
       max-width: 740px;
     } 
-    .section-title{
+    .section-title, .section-title-dark{
      font-size: var(--h3);
    }
 }
@@ -275,7 +304,7 @@
        gap: 25px;
     }
 
-    .section-title{
+    .section-title, .section-title-dark{
      font-size: var(--h4);
    }
 
@@ -359,4 +388,11 @@
      grid-template-columns: repeat(1, 1fr);
      gap: 10px;
 }
+
+/*==================== portfolio page css ===================*/
+.portfolio__image-wrapper{
+     grid-template-columns: repeat(1, 1fr);
+     gap: 15px;
+}
+/*==================== /.portfolio page css ===================*/
 }
