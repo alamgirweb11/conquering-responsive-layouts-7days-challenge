@@ -245,6 +245,9 @@
 /*======================== portfolio page css ==================================*/
 .portfolio__content{
      text-align: center;
+     display: grid;
+     gap: 15px;
+     margin: 30px 0;
 }
 .portfolio__description{
      font-family: var(--work-sans);
@@ -257,17 +260,76 @@
      gap: 25px;
 }
 
-.portfolio__content {
-      display: grid;
-      gap: 15px;
-      margin: 30px 0;
-}
-
 .portfolio__btn{
      margin: 30px auto;
      display: block;
 }
 /*======================== /. portfolio page css ================================*/
+
+/*======================== service page css ==================================*/
+.service__content{
+     text-align: center;
+     display: grid;
+     gap: 15px;
+     margin: 30px 0;
+}
+
+.service__description{
+     font-family: var(--work-sans);
+     font-size: var(--sub);
+}
+
+.service__card-wrapper{
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       font-family: var(--work-sans);
+       text-align: center;
+       gap: 40px;
+       margin-bottom: 2rem;
+}
+
+.service__card{
+     box-shadow: var(--shadow-one);
+     border-radius: 6px;
+     display: grid;
+     gap: 20px;
+     padding: 40px;
+}
+
+.service_price__duration-block{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.service__price{
+      font-size: var(--h1);
+      font-weight: bold;
+}
+
+.service_duration{
+      font-size: var(--body);
+      color: var(--color-dark-75);
+}
+
+.service__short-description{
+     color: var(--color-dark-75);
+}
+
+
+.feature__list{
+      list-style: none;
+}
+
+.feature__item i{
+      color: var(--color-green-100)
+}
+
+.service__card-btn{
+      justify-self: center;
+}
+
+/*======================== /. service page css ================================*/
 
 
 /*========================== media query ===================*/
@@ -293,6 +355,11 @@
     .section-title, .section-title-dark{
      font-size: var(--h3);
    }
+   /* ============ service page css ================= */
+   .service__card-wrapper{
+     grid-template-columns: repeat(2, 1fr);
+  }
+   /* ============ /. service page css ================= */
 }
 @media (max-width: 768px){
      /* =============== common classes ================= */
@@ -372,6 +439,13 @@
         font-size: var(--label);
         margin-top: 10px;
 }
+   /* ============ service page css ================= */
+
+.service__card-wrapper{
+     grid-template-columns: repeat(1, 0.7fr);
+     justify-content: center;
+  }
+   /* ============ /. service page css ================= */
 }
 @media (max-width: 568px){
     .container{
@@ -395,4 +469,10 @@
      gap: 15px;
 }
 /*==================== /.portfolio page css ===================*/
+   /* ============ service page css ================= */
+   .service__card-wrapper{
+     grid-template-columns: repeat(1, 1fr);
+     justify-content: center;
+  }
+   /* ============ /. service page css ================= */
 }
